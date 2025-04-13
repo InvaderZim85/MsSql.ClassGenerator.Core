@@ -58,4 +58,4 @@ It is possible to provide additional information for a class/property. This is d
 | Summry | `string` | The desired text for the summary. |
 | Remarks | `string` | The desired text for the remarks. |
 
-> **Note**: The information for a class is indicated by the value `null` for the *Column*.
+> **Note**: The information for a class is indicated by the value `null` for the *Column*. For an example see here [Example](Demo/TableInformation.json)
