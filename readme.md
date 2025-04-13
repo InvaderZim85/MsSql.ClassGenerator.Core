@@ -44,7 +44,7 @@ For a detailed example, see the demo project.
 | DbModel | If `true`, a class is created which can be used with *EF Core*. |
 | AddColumnAttribute | If `true`, the `[Column("Name")]` attribute is added to each property even if it's not needed. |
 | WithBackingField | If `true`, a *backing field* is created. |
-| AddSetProperty | If `true`, the `SetProperty` method and the using of the [CommunityToolkit.Mvvm](https://learn.microsoft.com/de-de/dotnet/communitytoolkit/mvvm/) is added. |
+| AddSetProperty | If `true`, the `SetProperty` method and the using of the [CommunityToolkit.Mvvm](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/) is added. |
 | AddSummary | If `true`, a summary is added to the class / property. |
 | AddTableNameToClassSummary | If `true`, the name of the table is added to the class summary. Is added as `remarks`. |
 | AdditionalInformatilFilepath | The path of the file, which contains the [additional information](#additional-information). |
