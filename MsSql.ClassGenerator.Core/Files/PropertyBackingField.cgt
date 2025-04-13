@@ -1,0 +1,11 @@
+/// <summary>
+/// Backing field for <see cref="$NAME$"/>
+/// </summary>
+private $TYPE$$NULLABLE$ $NAME2$;
+
+$ADDITION$
+public $TYPE$$NULLABLE$ $NAME$
+{
+    get => $NAME2$;
+    set => $NAME2$ = value;
+}

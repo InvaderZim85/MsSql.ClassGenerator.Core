@@ -1,0 +1,512 @@
+[
+    {
+        "Id": 658101385,
+        "Name": "KeywordType",
+        "Alias": "",
+        "ClassName": "KeywordType",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 658101385,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 658101385,
+                "Name": "Name",
+                "Alias": "",
+                "PropertyName": "Name",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 20,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 677577452,
+        "Name": "MediumType",
+        "Alias": "",
+        "ClassName": "MediumType",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 677577452,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 677577452,
+                "Name": "Name",
+                "Alias": "",
+                "PropertyName": "Name",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 20,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 690101499,
+        "Name": "Keyword",
+        "Alias": "",
+        "ClassName": "Keyword",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 690101499,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 690101499,
+                "Name": "KeywordTypeId",
+                "Alias": "",
+                "PropertyName": "KeywordTypeId",
+                "Order": 2,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 690101499,
+                "Name": "ObjectId",
+                "Alias": "",
+                "PropertyName": "ObjectId",
+                "Order": 3,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 690101499,
+                "Name": "Value",
+                "Alias": "",
+                "PropertyName": "Value",
+                "Order": 4,
+                "DataType": "nvarchar",
+                "MaxLength": 2000,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 690101499,
+                "Name": "CreationDateTime",
+                "Alias": "",
+                "PropertyName": "CreationDateTime",
+                "Order": 5,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 805577908,
+        "Name": "Distributor",
+        "Alias": "",
+        "ClassName": "Distributor",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 805577908,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 805577908,
+                "Name": "Name",
+                "Alias": "",
+                "PropertyName": "Name",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 20,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 1298103665,
+        "Name": "Settings",
+        "Alias": "",
+        "ClassName": "Settings",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 1298103665,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 1298103665,
+                "Name": "Key",
+                "Alias": "",
+                "PropertyName": "Key",
+                "Order": 2,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1298103665,
+                "Name": "Value",
+                "Alias": "",
+                "PropertyName": "Value",
+                "Order": 3,
+                "DataType": "nvarchar",
+                "MaxLength": 500,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1298103665,
+                "Name": "Description",
+                "Alias": "",
+                "PropertyName": "Description",
+                "Order": 4,
+                "DataType": "nvarchar",
+                "MaxLength": 500,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1298103665,
+                "Name": "CreatedDateTime",
+                "Alias": "",
+                "PropertyName": "CreatedDateTime",
+                "Order": 5,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1298103665,
+                "Name": "ModifiedDateTime",
+                "Alias": "",
+                "PropertyName": "ModifiedDateTime",
+                "Order": 6,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 1845581613,
+        "Name": "Book",
+        "Alias": "",
+        "ClassName": "Book",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 1845581613,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 1845581613,
+                "Name": "Title",
+                "Alias": "",
+                "PropertyName": "Title",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 200,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1845581613,
+                "Name": "Link",
+                "Alias": "",
+                "PropertyName": "Link",
+                "Order": 3,
+                "DataType": "nvarchar",
+                "MaxLength": 1000,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1845581613,
+                "Name": "CreatedDateTime",
+                "Alias": "",
+                "PropertyName": "CreatedDateTime",
+                "Order": 4,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1845581613,
+                "Name": "ModifiedDateTime",
+                "Alias": "",
+                "PropertyName": "ModifiedDateTime",
+                "Order": 5,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 1925581898,
+        "Name": "Comic",
+        "Alias": "",
+        "ClassName": "Comic",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 1925581898,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 1925581898,
+                "Name": "Title",
+                "Alias": "",
+                "PropertyName": "Title",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 200,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1925581898,
+                "Name": "Link",
+                "Alias": "",
+                "PropertyName": "Link",
+                "Order": 3,
+                "DataType": "nvarchar",
+                "MaxLength": 1000,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1925581898,
+                "Name": "CreatedDateTime",
+                "Alias": "",
+                "PropertyName": "CreatedDateTime",
+                "Order": 4,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 1925581898,
+                "Name": "ModifiedDateTime",
+                "Alias": "",
+                "PropertyName": "ModifiedDateTime",
+                "Order": 5,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 2021582240,
+        "Name": "Movie",
+        "Alias": "",
+        "ClassName": "Movie",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 2021582240,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 2021582240,
+                "Name": "Title",
+                "Alias": "",
+                "PropertyName": "Title",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 200,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2021582240,
+                "Name": "MediumTypeId",
+                "Alias": "",
+                "PropertyName": "MediumTypeId",
+                "Order": 3,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2021582240,
+                "Name": "DistributorId",
+                "Alias": "",
+                "PropertyName": "DistributorId",
+                "Order": 4,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": true,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2021582240,
+                "Name": "Link",
+                "Alias": "",
+                "PropertyName": "Link",
+                "Order": 5,
+                "DataType": "nvarchar",
+                "MaxLength": 1000,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2021582240,
+                "Name": "CreatedDateTime",
+                "Alias": "",
+                "PropertyName": "CreatedDateTime",
+                "Order": 6,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2021582240,
+                "Name": "ModifiedDateTime",
+                "Alias": "",
+                "PropertyName": "ModifiedDateTime",
+                "Order": 7,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    },
+    {
+        "Id": 2133582639,
+        "Name": "Music",
+        "Alias": "",
+        "ClassName": "Music",
+        "Schema": "dbo",
+        "Columns": [
+            {
+                "TableId": 2133582639,
+                "Name": "Id",
+                "Alias": "",
+                "PropertyName": "Id",
+                "Order": 1,
+                "DataType": "int",
+                "MaxLength": 4,
+                "IsNullable": false,
+                "IsPrimaryKey": true
+            },
+            {
+                "TableId": 2133582639,
+                "Name": "Title",
+                "Alias": "",
+                "PropertyName": "Title",
+                "Order": 2,
+                "DataType": "nvarchar",
+                "MaxLength": 200,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2133582639,
+                "Name": "Link",
+                "Alias": "",
+                "PropertyName": "Link",
+                "Order": 3,
+                "DataType": "nvarchar",
+                "MaxLength": 1000,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2133582639,
+                "Name": "CreatedDateTime",
+                "Alias": "",
+                "PropertyName": "CreatedDateTime",
+                "Order": 4,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            },
+            {
+                "TableId": 2133582639,
+                "Name": "ModifiedDateTime",
+                "Alias": "",
+                "PropertyName": "ModifiedDateTime",
+                "Order": 5,
+                "DataType": "datetime2",
+                "MaxLength": 8,
+                "IsNullable": false,
+                "IsPrimaryKey": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,290 @@
+[
+    {
+        "Table": "Book",
+        "Column": null,
+        "Summary": "Represents a single book.",
+        "Remarks": "Test remarks entry."
+    },
+    {
+        "Table": "Book",
+        "Column": "CreatedDateTime",
+        "Summary": "Gets or sets the creation date / time.",
+        "Remarks": ""
+    },
+    {
+        "Table": "Book",
+        "Column": "Id",
+        "Summary": "Gets or sets the internal id.",
+        "Remarks": ""
+    },
+    {
+        "Table": "Book",
+        "Column": "Link",
+        "Summary": "Gets or sets the link.",
+        "Remarks": "<b>Note</b>: Contains the link to the book for example from wikipedia."
+    },
+    {
+        "Table": "Book",
+        "Column": "ModifiedDateTime",
+        "Summary": "Gets or sets the modification date / time.",
+        "Remarks": "Default = <see langword=\"DateTime.Now\" />."
+    },
+    {
+        "Table": "Book",
+        "Column": "Title",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Comic",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Comic",
+        "Column": "CreatedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Comic",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Comic",
+        "Column": "Link",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Comic",
+        "Column": "ModifiedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Comic",
+        "Column": "Title",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Distributor",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Distributor",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Distributor",
+        "Column": "Name",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Keyword",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Keyword",
+        "Column": "CreationDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Keyword",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Keyword",
+        "Column": "KeywordTypeId",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Keyword",
+        "Column": "ObjectId",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Keyword",
+        "Column": "Value",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "KeywordType",
+        "Column": null,
+        "Summary": "Provides the differen keyword types.",
+        "Remarks": "Used by the keywords."
+    },
+    {
+        "Table": "KeywordType",
+        "Column": "Id",
+        "Summary": "Gets or sets the internal id.",
+        "Remarks": ""
+    },
+    {
+        "Table": "KeywordType",
+        "Column": "Name",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "MediumType",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "MediumType",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "MediumType",
+        "Column": "Name",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "CreatedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "DistributorId",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "Link",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "MediumTypeId",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "ModifiedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Movie",
+        "Column": "Title",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Music",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Music",
+        "Column": "CreatedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Music",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Music",
+        "Column": "Link",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Music",
+        "Column": "ModifiedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Music",
+        "Column": "Title",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": null,
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": "CreatedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": "Description",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": "Id",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": "Key",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": "ModifiedDateTime",
+        "Summary": "",
+        "Remarks": ""
+    },
+    {
+        "Table": "Settings",
+        "Column": "Value",
+        "Summary": "",
+        "Remarks": ""
+    }
+]

@@ -1,0 +1,2 @@
+$ADDITION$
+public $TYPE$$NULLABLE$ $NAME$ { get; set; }
