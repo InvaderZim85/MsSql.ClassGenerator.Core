@@ -36,6 +36,19 @@ var classManager = new ClassManager();
 
 For a detailed example, see the demo project.
 
+| Property | Description |
+|---|---|
+| Namespace | The desired namespace which should be used. If the value is empty (e. g. `string.Empty` or `""`) only the bare class is created (without namespace and usings). |
+| SealedClass | If `true`, the `sealed` modifier is added. |
+| Modifier | The desired modifier. Default = `private`. |
+| DbModel | If `true`, a class is created which can be used with *EF Core*. |
+| AddColumnAttribute | If `true`, the `[Column("Name")]` attribute is added to each property even if it's not needed. |
+| WithBackingField | If `true`, a *backing field* is created. |
+| AddSetProperty | If `true`, the `SetProperty` method and the using of the [CommunityToolkit.Mvvm](https://learn.microsoft.com/de-de/dotnet/communitytoolkit/mvvm/) is added. |
+| AddSummary | If `true`, a summary is added to the class / property. |
+| AddTableNameToClassSummary | If `true`, the name of the table is added to the class summary. Is added as `remarks`. |
+| AdditionalInformatilFilepath | The path of the file, which contains the [additional information](#additional-information). |
+
 ## Additional information
 
 It is possible to provide additional information for a class/property. This is done via a JSON file with the following structure:
