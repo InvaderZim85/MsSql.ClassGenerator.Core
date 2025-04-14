@@ -30,7 +30,7 @@ internal static class Helper
         if (!File.Exists(filepath))
             throw new FileNotFoundException($"The specified file '{filepath}' doesn't exist.", filepath);
 
-        var stream = File.OpenRead(filepath);
+        await using var stream = File.OpenRead(filepath);
         return await JsonSerializer.DeserializeAsync<T>(stream, SerializerOptions) ?? new T();
     }
 }

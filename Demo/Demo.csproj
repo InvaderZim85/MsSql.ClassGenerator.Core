@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MsSql.ClassGenerator.Core\MsSql.ClassGenerator.Core.csproj" />
+    <PackageReference Include="MsSql.ClassGenerator.Core" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>

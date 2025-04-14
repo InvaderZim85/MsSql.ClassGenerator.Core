@@ -72,3 +72,18 @@ It is possible to provide additional information for a class/property. This is d
 | Remarks | `string` | The desired text for the remarks. |
 
 > **Note**: The information for a class is indicated by the value `null` for the *Column*. For an example see here [Example](Demo/TableInformation.json)
+
+## Templates / Type Conversion file
+
+After you build your project, a folder named "Files" will be created. Inside you'll find the following files:
+
+| File | Description |
+|---|---|
+| `ClassDefault.cgt` | The template for a default class without a namespace (the bare *class* without a namespace and without the usings). |
+| `ClassDefaultWithNs.cgt` | The template for a class with a namespace (includes the usings). |
+| `PropertyBackingField.cgt` | The template for a property with a backing field. |
+| `PropertyBackingFieldSetProperty.cgt` | The template for a property with a backing field and the usage of the `SetProperty` method (for more information see [Example > *AddSetProperty*](#example)). |
+| `PropertyDefault.cgt` | The template for property (without backing field). |
+| `TypeConverstion.json` | The file containing the information for converting an MS SQL data type to the corresponding C# data type. |
+
+> **Note**: The content of the files can/may be changed, but the file name must not be changed, otherwise they can no longer be found and an error will occur.

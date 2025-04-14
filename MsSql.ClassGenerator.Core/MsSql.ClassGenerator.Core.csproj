@@ -4,32 +4,45 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>MsSql.ClassGenerator.Core</Title>
+    <PackageProjectUrl>https://github.com/InvaderZim85/MsSql.ClassGenerator.Core</PackageProjectUrl>
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/InvaderZim85/MsSql.ClassGenerator.Core.git</RepositoryUrl>
+    <PackageTags>mssql, class generator, c#, sql, tables, class, generator</PackageTags>
+    <Description>C# class generator for MsSql tables</Description>
+    <Copyright>Andreas Pouwels</Copyright>
+    <PackageLicenseExpression> MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Authors>Andreas Pouwels</Authors>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+      <Content Include="Files/**/*.*" Pack="true" PackagePath="contentFiles/Files/">
+          <PackageCopyToOutput>true</PackageCopyToOutput>
+      </Content>
+      <Content Include="build/MsSql.ClassGenerator.Core.targets" PackagePath="build/MsSql.ClassGenerator.Core.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Files\ClassDefault.cgt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Files\ClassDefaultWithNs.cgt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Files\PropertyBackingField.cgt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Files\PropertyBackingFieldSetProperty.cgt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Files\PropertyDefault.cgt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Files\TypeConversion.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
